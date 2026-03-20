@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>README Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🚀 README Generator</h1>
+
+    <input type="text" id="title" placeholder="Project Title">
+    <textarea id="description" placeholder="Project Description"></textarea>
+    <input type="text" id="tech" placeholder="Tech Stack (comma separated)">
+    <textarea id="features" placeholder="Features (one per line)"></textarea>
+
+    <button onclick="generateReadme()">Generate README</button>
+
+    <h2>Preview</h2>
+    <textarea id="output" readonly></textarea>
+
+    <button onclick="copyReadme()">Copy to Clipboard</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
